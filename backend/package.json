@@ -1,0 +1,20 @@
+{
+  "name": "live-polling-backend",
+  "version": "1.0.0",
+  "description": "Express + Socket.io backend for Live Polling System",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
+
+
