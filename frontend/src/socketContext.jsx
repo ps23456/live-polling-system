@@ -17,7 +17,7 @@ export function SocketProvider({ children }) {
   const [pollHistory, setPollHistory] = useState([]);
 
   useEffect(() => {
-    const s = io('http://localhost:4000');
+    const s = io('https://live-polling-system-0oft.onrender.com/');
     setSocket(s);
 
     s.on('new-question', question => {
